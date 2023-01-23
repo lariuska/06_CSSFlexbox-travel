@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+article {
+    display: flex;
+    border: 2px solid #0e0ec9;
+    margin: 10px;
+}
+
+div {
+    padding: 15px;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width: 850px) {
+    article {
+        flex-direction: column;
+    }
+}
